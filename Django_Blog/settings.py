@@ -122,6 +122,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+
 # Crispy using Bootstrap 4
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
